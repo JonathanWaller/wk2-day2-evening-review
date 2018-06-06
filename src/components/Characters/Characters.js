@@ -84,6 +84,7 @@ class Characters extends Component {
             value={this.state.newCharacter}
             onChange={this.onChangeHandler}
             type="text"
+            placeholder="Add a new character"
           />
           <button>Submit</button>
         </form>
